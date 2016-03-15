@@ -2,13 +2,7 @@
 ###git创建多个远程仓库
 ####源于
 <br>我在做wohuodong这个项目的时候，之前因为把wohuodong放在新浪云上面的，方便，便于和后台接接口成功后，外网的他们访问看效果（因为新康园的云豆每个月也有免费的访问次数)，所以就用的新浪云，但是新浪云git代码管理，既是一个服务器，也是一个git仓库，然后我之后也想把这个项目放在自己的github上，方面以后自己的管理，所以就有了两个仓库，当我自己提交的时候，因为是新手，总是提示我如下错误：
-```javascript
-error: failed to push some refs to 'https://git.sinacloud.com/wohuodongv1/'
-hint: Updates were rejected because a pushed branch tip is behind its remote
-hint: counterpart. Check out this branch and integrate the remote changes
-hint: (e.g. 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-```
+
 <br>
 <br>查了很久，感觉可能是因为我本地项目远程了两个仓库，但是配置并没有设置同步两个，所以可能有错误，然后我就查询git远程两个仓库
 <br>就解决了
